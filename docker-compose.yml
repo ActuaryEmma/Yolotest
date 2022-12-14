@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.8'
 
 services:
   backend:
@@ -28,8 +28,8 @@ services:
     ports:
       - '27017:27017'
     environment:
-      MONGO_INITDB_ROOT_USERNAME: lenny
-      MONGO_INITDB_ROOT_PASSWORD: lenny
+      MONGO_INITDB_ROOT_USERNAME: Emma
+      MONGO_INITDB_ROOT_PASSWORD: Emma
     networks:
       - yolo_network
     volumes:
